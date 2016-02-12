@@ -1,10 +1,14 @@
+package c1.array;
+
 import java.util.HashMap;
 import java.util.Map;
 
 /**
  * Created by nampham on 10/23/15.
- */
+ * Check whether two strings a permutation of each other
+ *  */
 public class C1P2 {
+
     public static class PermutationString{
         public boolean isPermutationString(String s1, String s2) {
             if (s1.length() != s2.length()) {
